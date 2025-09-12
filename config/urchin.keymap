@@ -41,14 +41,19 @@
             key-positions = <7 8>;
         };
 
-        ralt {
+        Ralt {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <18 17>;
         };
 
-        cip {
+        Cip {
             bindings = <&cip>;
             key-positions = <28 27>;
+        };
+
+        Sys {
+            bindings = <&mo 5>;
+            key-positions = <31 32>;
         };
     };
 
@@ -155,6 +160,17 @@
             >;
 
             label = "Func";
+        };
+
+        System {
+            bindings = <
+&none  &none  &none  &none  &none        &none        &none  &none  &none  &none
+&none  &none  &none  &none  &bootloader  &bootloader  &none  &none  &none  &none
+&none  &none  &none  &none  &sys_reset   &sys_reset   &none  &none  &none  &none
+                     &none  &none        &none        &none
+            >;
+
+            label = "Syst";
         };
     };
 };
