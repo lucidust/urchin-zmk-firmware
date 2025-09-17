@@ -63,7 +63,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LCTRL>,
+                <&kp LEFT_CONTROL>,
                 <&macro_tap>,
                 <&kp C>,
                 <&macro_release>;
@@ -76,7 +76,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LCTRL>,
+                <&kp LEFT_CONTROL>,
                 <&macro_tap>,
                 <&kp V>,
                 <&macro_release>;
@@ -89,7 +89,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LCTRL>,
+                <&kp LEFT_CONTROL>,
                 <&macro_tap>,
                 <&kp X>,
                 <&macro_release>;
@@ -100,7 +100,7 @@
         cip: cip {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LSHIFT &kp LEFT_ALT>;
+            bindings = <&kp LEFT_SHIFT &kp LEFT_ALT>;
             label = "CIP";
         };
     };
